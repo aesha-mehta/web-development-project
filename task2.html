@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Website</title>
+  <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  <header>
+    <h1>Our Travel Website</h1>
+    <p>Start your journey today!</p>
+  </header>
+
+  <div class="container">
+    <section id="search">
+      <h2>Search for Your Next Adventure</h2>
+      <input type="text" id="searchInput" placeholder="Enter destination">
+      <button onclick="search()">Search</button>
+    </section>
+
+    <section id="results">
+      <!-- Search results will be displayed here -->
+    </section>
+
+    <section id="booking">
+      <h2>Book Your Travel</h2>
+      <form id="bookingForm">
+        <input type="text" id="destinationInput" placeholder="Destination">
+        <input type="date" id="checkInDate">
+        <input type="date" id="checkOutDate">
+        <input type="number" id="guestsInput" placeholder="Number of guests">
+        <button type="submit">Book Now</button>
+      </form>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Our Travel Website. All rights reserved.</p>
+  </footer>
+
+  <script src="script1.js"></script>
+</body>
+</html>
